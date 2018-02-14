@@ -16,7 +16,7 @@ sudo docker run \
     -v $PWD/sharedFolder:/var/sharedFolder \
     -v $PWD/radare2rc:/home/r2/.radare2rc \
     -v $PWD/r2-config:/home/r2/.config/radare2 \
-    bananafett/cutter:latest
+    bananafett/cutter-docker:latest
 ```
 
 or by using the `Makefile` after initial configuration (`make build` and `make run`).
