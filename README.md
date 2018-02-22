@@ -1,5 +1,7 @@
 # cutter-docker
 
+[![Build Status](https://travis-ci.org/0xBANANA/cutter-docker.png?branch=master)](https://travis-ci.org/0xBANANA/cutter-docker)
+
 This can be used like
 ```
 touch $PWD/radare2rc && \
