@@ -4,7 +4,7 @@ SHELL := /bin/bash
 DIR := $(shell echo $(shell cd "$(shell  dirname "${BASH_SOURCE[0]}" )" && pwd ))
 
 VERSION ?= latest
-IMAGE_NAME ?= bananafett/cutter
+IMAGE_NAME ?= bananafett/cutter-docker
 CONTAINER_NAME ?= cutter
 
 # This will output the help for each task
