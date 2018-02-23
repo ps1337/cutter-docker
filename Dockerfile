@@ -13,7 +13,7 @@ RUN apt-get update && \
     g++ \
     gcc \
     git-core \
-    pkg-config \
+    pkg-config
 
 # Get latest cutter release
 WORKDIR /opt
