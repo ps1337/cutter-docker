@@ -8,7 +8,7 @@ RUN apt-get update && \
 	make \
 	qtbase5-dev \
 	unzip \
-	wget
+	wget \
     cmake \
     g++ \
     gcc \
