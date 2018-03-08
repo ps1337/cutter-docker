@@ -1,6 +1,6 @@
 # cutter-docker
 
-[![Build Status](https://travis-ci.org/0xBANANA/cutter-docker.png?branch=master)](https://travis-ci.org/0xBANANA/cutter-docker)
+[![Build Status](https://travis-ci.org/ps1337/cutter-docker.png?branch=master)](https://travis-ci.org/ps1337/cutter-docker)
 
 This can be used like
 ```
