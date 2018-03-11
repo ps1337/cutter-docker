@@ -14,6 +14,8 @@ RUN apt-get update && \
     g++ \
     gcc \
     git-core \
+    python3 \
+    python3-dev \
     pkg-config
 
 # Get latest cutter release
