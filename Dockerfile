@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:rolling
 
 # Dependencies
 RUN apt-get update && \
@@ -7,6 +7,7 @@ RUN apt-get update && \
     libqt5svg5-dev \
     make \
     qtbase5-dev \
+    qtwebengine5-dev \
     unzip \
     wget \
     cmake \
