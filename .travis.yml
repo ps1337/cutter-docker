@@ -4,5 +4,5 @@ services:
   - docker
 
 script:
-  - docker build -t bananafett/cutter-docker .
+  - docker build -t ps1337/cutter-docker .
   - docker images

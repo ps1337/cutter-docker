@@ -4,7 +4,7 @@ SHELL := /bin/bash
 DIR := $(shell echo $(shell cd "$(shell  dirname "${BASH_SOURCE[0]}" )" && pwd ))
 
 VERSION ?= latest
-IMAGE_NAME ?= bananafett/cutter-docker
+IMAGE_NAME ?= ps1337/cutter-docker
 CONTAINER_NAME ?= cutter
 
 # This will output the help for each task
@@ -40,7 +40,7 @@ run: ## Run container
 	-v $(DIR)/sharedFolder:/var/sharedFolder \
 	-v $(DIR)/radare2rc:/home/r2/.radare2rc \
 	-v $(DIR)/r2-config:/home/r2/.config/radare2 \
-	bananafett/cutter:latest
+	$(IMAGE_NAME):$(VERSION)
 
 stop: ## Stop a running container
 	sudo docker stop $(CONTAINER_NAME)

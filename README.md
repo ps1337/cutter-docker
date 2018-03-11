@@ -1,6 +1,6 @@
 # cutter-docker
 
-[![Build Status](https://travis-ci.org/0xBANANA/cutter-docker.png?branch=master)](https://travis-ci.org/0xBANANA/cutter-docker)
+[![Build Status](https://travis-ci.org/ps1337/cutter-docker.png?branch=master)](https://travis-ci.org/ps1337/cutter-docker)
 
 This can be used like
 ```
@@ -18,7 +18,7 @@ sudo docker run \
     -v $PWD/sharedFolder:/var/sharedFolder \
     -v $PWD/radare2rc:/home/r2/.radare2rc \
     -v $PWD/r2-config:/home/r2/.config/radare2 \
-    bananafett/cutter-docker:latest
+    ps1337/cutter-docker:latest
 ```
 
 or by using the `Makefile` after initial configuration (`make build` and `make run`).
