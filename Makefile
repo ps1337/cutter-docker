@@ -35,7 +35,7 @@ run: ## Run container
 	--name $(CONTAINER_NAME) \
 	--cap-drop=ALL  \
 	--cap-add=SYS_PTRACE \
-	-e DISPLAY=$DISPLAY \
+	-e DISPLAY=$$DISPLAY \
 	-v /tmp/.X11-unix:/tmp/.X11-unix:ro \
 	-v $(DIR)/sharedFolder:/var/sharedFolder \
 	-v $(DIR)/radare2rc:/home/r2/.radare2rc \
