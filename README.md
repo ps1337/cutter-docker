@@ -4,7 +4,9 @@ This repository provides an easy way to deploy the tool cutter in a docker conta
 
 [![Build Status](https://travis-ci.org/ps1337/cutter-docker.png?branch=master)](https://travis-ci.org/ps1337/cutter-docker)
 
-This can be used like
+Using weekly builds, the image gets updated regularly on [docker hub](https://hub.docker.com/r/ps1337/cutter-docker/).
+
+You can use the pre-built image like:
 ```
 touch $PWD/radare2rc && \
 mkdir -p $PWD/r2-config && \
