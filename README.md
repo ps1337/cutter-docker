@@ -1,5 +1,7 @@
 # cutter-docker
 
+This repository provides an easy way to deploy the tool cutter in a docker container, as mentioned in the [official cutter repository](https://github.com/radareorg/cutter).
+
 [![Build Status](https://travis-ci.org/ps1337/cutter-docker.png?branch=master)](https://travis-ci.org/ps1337/cutter-docker)
 
 This can be used like
@@ -21,4 +23,4 @@ sudo docker run \
     ps1337/cutter-docker:latest
 ```
 
-or by using the `Makefile` after initial configuration (`make build` and `make run`).
+or by using the `Makefile` (after additional configuration to make it fit your needs) by executing `make build` and `make run`.

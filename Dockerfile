@@ -1,4 +1,5 @@
 FROM ubuntu:rolling
+LABEL maintainer "pschmied <ps1337@mailbox.org>"
 
 # Dependencies
 RUN apt-get update && \
